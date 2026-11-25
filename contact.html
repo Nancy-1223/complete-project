@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Alex Morgan about web development projects, collaboration and learning opportunities.">
+  <meta name="theme-color" content="#101827">
+  <title>Contact | Alex Morgan</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Alex Morgan home">AM<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span></button>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation"><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a aria-current="page" class="nav-cta" href="contact.html">Contact</a></li>
+    </ul></nav>
+  </div></header>
+  <main id="main-content">
+    <section class="page-intro section"><div class="container narrow">
+      <p class="eyebrow">GET IN TOUCH</p><h1>Let’s start a conversation.</h1><p class="lead">Have a question, an idea or an opportunity? Send a message using the form below.</p>
+    </div></section>
+    <section class="section section-muted"><div class="container contact-layout">
+      <aside class="contact-aside"><h2>Contact details</h2><p>Replace these sample details with your real contact information.</p><p><strong>Email</strong><br><a href="mailto:hello@example.com">hello@example.com</a></p><p><strong>Location</strong><br>India</p></aside>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row"><label for="name">Full name <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" required minlength="2"></div>
+        <div class="form-row"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text"></div>
+        <div class="form-row"><label for="message">Your message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="6" required minlength="10"></textarea></div>
+        <button class="button button-primary" type="submit">Send message</button>
+        <p class="form-hint">Demo form: connect a form service or backend to receive messages.</p>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year>2026</span> Alex Morgan. Built with care.</p><nav aria-label="Footer navigation"><a href="about.html">About</a><a href="projects.html">Projects</a></nav></div></footer>
+</body>
+</html>

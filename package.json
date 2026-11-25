@@ -1,0 +1,14 @@
+{
+  "name": "parcel-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Product catalog capstone: modular ES-module frontend, client-side routing, optimized build, static deploy.",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "dev": "npx --yes serve src -s -l 3000",
+    "build": "node scripts/build.mjs",
+    "preview": "npx --yes serve dist -s -l 4000"
+  },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}

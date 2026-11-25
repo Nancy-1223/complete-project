@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parcel</title>
+  <meta name="description" content="Parcel is a small catalog of everyday objects: bags, desk tools, drinkware, audio and watches.">
+  <meta name="theme-color" content="#1f4fd8">
+  <meta property="og:title" content="Parcel">
+  <meta property="og:description" content="A small catalog of everyday objects, chosen with care.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4fd8'/%3E%3Cpath d='M9 11h14v11H9z' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/main.css">
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="/" data-link>Parcel</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/" data-link>Home</a>
+        <a href="/products" data-link>Catalog</a>
+        <a href="/cart" data-link id="cart-link">Cart <span id="cart-count" class="badge" hidden>0</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="app" class="site-main"></main>
+  <footer class="site-footer"><p>Parcel is a demo store. No payments are taken.</p></footer>
+  <div id="live" class="visually-hidden" aria-live="polite"></div>
+  <noscript><p class="noscript">This site needs JavaScript to show the catalog.</p></noscript>
+</body>
+</html>

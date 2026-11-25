@@ -1,0 +1,110 @@
+[
+  {
+    "id": "daypack",
+    "name": "Daypack Backpack",
+    "category": "bags",
+    "price": 64,
+    "rating": 4.7,
+    "description": "A 20-litre everyday pack with a padded laptop sleeve, water-resistant shell and a hidden passport pocket.",
+    "featured": true
+  },
+  {
+    "id": "canvas-tote",
+    "name": "Canvas Tote",
+    "category": "bags",
+    "price": 28,
+    "rating": 4.4,
+    "description": "Heavy cotton canvas with an internal zip pocket. Holds groceries or a 14-inch laptop.",
+    "featured": false
+  },
+  {
+    "id": "desk-lamp",
+    "name": "Dimmable Desk Lamp",
+    "category": "desk",
+    "price": 52,
+    "rating": 4.6,
+    "description": "Warm-to-cool LED lamp with three brightness steps and a flexible arm. USB-C powered.",
+    "featured": true
+  },
+  {
+    "id": "notebook-set",
+    "name": "Dot-Grid Notebook Set",
+    "category": "desk",
+    "price": 18,
+    "rating": 4.8,
+    "description": "Three A5 notebooks with 120 gsm paper that handles fountain pens and markers without bleed.",
+    "featured": false
+  },
+  {
+    "id": "keyboard",
+    "name": "Compact Wireless Keyboard",
+    "category": "desk",
+    "price": 89,
+    "rating": 4.5,
+    "description": "75% layout with quiet tactile switches, Bluetooth for three devices and a 4-month battery.",
+    "featured": true
+  },
+  {
+    "id": "planter",
+    "name": "Ceramic Desk Planter",
+    "category": "desk",
+    "price": 24,
+    "rating": 4.3,
+    "description": "Hand-glazed planter with a drainage tray, sized for succulents and small herbs.",
+    "featured": false
+  },
+  {
+    "id": "bottle",
+    "name": "Insulated Steel Bottle",
+    "category": "drinkware",
+    "price": 32,
+    "rating": 4.7,
+    "description": "750 ml double-wall bottle that keeps drinks cold for 24 hours or hot for 12.",
+    "featured": true
+  },
+  {
+    "id": "mug",
+    "name": "Stoneware Mug",
+    "category": "drinkware",
+    "price": 16,
+    "rating": 4.6,
+    "description": "350 ml mug with a wide handle and a matte glaze. Dishwasher and microwave safe.",
+    "featured": false
+  },
+  {
+    "id": "headphones",
+    "name": "Over-Ear Headphones",
+    "category": "audio",
+    "price": 129,
+    "rating": 4.5,
+    "description": "Closed-back wireless headphones with active noise cancelling and 35 hours of playback.",
+    "featured": true
+  },
+  {
+    "id": "earbuds",
+    "name": "Wired Earbuds",
+    "category": "audio",
+    "price": 22,
+    "rating": 4.2,
+    "description": "Braided-cable earbuds with an inline mic and three sizes of silicone tips.",
+    "featured": false
+  },
+  {
+    "id": "sunglasses",
+    "name": "Polarised Sunglasses",
+    "category": "style",
+    "price": 58,
+    "rating": 4.4,
+    "description": "Lightweight acetate frames with UV400 polarised lenses and a hard case.",
+    "featured": false
+  },
+  {
+    "id": "watch",
+    "name": "Field Watch",
+    "category": "style",
+    "price": 149,
+    "rating": 4.8,
+    "description": "38 mm steel watch with a sapphire crystal, quartz movement and a canvas strap.",
+    "featured": true
+  }
+]
